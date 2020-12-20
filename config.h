@@ -5,6 +5,7 @@ static const unsigned int borderpx  = 1;        /* border pixel of windows */
 static const unsigned int snap      = 1;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
+static const unsigned int gappx     = 10;        /* gaps between windows */
 /* static const char *fonts[]          = { "monospace:size=10" }; */
 static const char *fonts[] = { "BallPill-regular:size=12:antialias=true:autohint=true",
                                            "JoyPixels:size=20:antialias=true:autohint=true",
