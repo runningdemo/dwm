@@ -7,9 +7,9 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const unsigned int gappx     = 10;        /* gaps between windows */
 /* static const char *fonts[]          = { "monospace:size=10" }; */
-static const char *fonts[] = { "BallPill-regular:size=12:antialias=true:autohint=true",
-                                           "JoyPixels:size=20:antialias=true:autohint=true",
-                                           "Noto Font Emoji=20:antialias=true:autohint=true" };
+// static const char *fonts[] = { "BallPill-regular:size=12:antialias=true:autohint=true",
+static const char *fonts[] = { "monospace:size=12:antialias=true:autohint=true",
+                                           "JoyPixels:pixelsize=10:antialias=true:autohint=true" };
 static const char dmenufont[]       = "BallPill-regular:size=12:antialias=true:autohint=true";
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
@@ -36,6 +36,7 @@ static const Rule rules[] = {
 	{ "qv2ray",  NULL,       NULL,       1 << 8,       0,           -1 },
 	{ "slack",  NULL,       NULL,       1 << 2,       0,           -1 },
 	{ "Slack",  NULL,       NULL,       1 << 2,       0,           -1 },
+	{ "flameshot",  NULL,       NULL,       0,       1,           -1 },
 };
 
 /* layout(s) */
