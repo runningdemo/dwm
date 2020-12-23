@@ -40,6 +40,8 @@ static const Rule rules[] = {
 	{ "slack",  NULL,       NULL,       1 << 2,       0,           -1 },
 	{ "Slack",  NULL,       NULL,       1 << 2,       0,           -1 },
 	{ "flameshot",  NULL,       NULL,       0,       1,           -1 },
+	{ "zoom",  NULL,       NULL,       1 << 5,       1,           -1 },
+	{ "zoom",  NULL,       "Zoom Meeting",       0,       1,           -1 },
 };
 
 /* layout(s) */
