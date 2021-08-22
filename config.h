@@ -4,11 +4,11 @@
 #include "bstackhoriz.c"
 
 /* appearance */
-static const unsigned int borderpx  = 4;        /* border pixel of windows */
+static const unsigned int borderpx  = 1;        /* border pixel of windows */
 static const unsigned int snap      = 1;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const unsigned int gappx     = 22;        /* gaps between windows */
+static const unsigned int gappx     = 10;        /* gaps between windows */
 /* static const char *fonts[]          = { "monospace:size=10" }; */
 // static const char *fonts[] = { "BallPill-regular:size=12:antialias=true:autohint=true",
 static const char *fonts[] = { "monospace:size=12:antialias=true:autohint=true",
@@ -44,6 +44,7 @@ static const Rule rules[] = {
 	{ "Peek",  NULL,       NULL,       0,       1,           -1 },
 	{ "figma-linux",  NULL,       NULL,       1 << 1,       0,           -1 },
 	{ "kitty",  NULL,       "notes",       0,       1,           -1 },
+	{ "kitty",  NULL,       "dic",       0,       1,           -1 },
 };
 
 /* layout(s) */
